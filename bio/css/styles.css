@@ -1,0 +1,192 @@
+body {
+	background: #F1F1F2;
+		
+}
+
+#container {
+	border: solid 2px #DDD;
+	background: #fff;
+	/*background: url("../img/16_col.gif");*/	
+	margin-top: 50px;
+		
+}
+
+
+/*LOGO*/
+
+#logo {
+	background: url("../img/logo.png");
+	height: 113px;
+	margin: 0;
+	left: 430px;
+	position: absolute;
+	padding: 0;
+	text-indent: -9999px;
+	width: 100px;
+}
+
+#logo:hover {
+	background-position: -100px;
+}
+
+#logo:active {
+	opacity: .3;
+}
+
+
+
+/*NAVIAGTION*/
+
+header {
+	float: left;
+	padding-bottom: 65px;
+	width: 960px;
+		
+}
+
+nav {
+	float: left;
+	font: 100 25px 'Roboto', sans-serif;
+	margin: 40px 0 0 0;
+	position: relative;
+}
+nav a {
+	display: block;
+	padding: 4px 0 4px 0;
+	text-align: center;
+	width: 100px;
+}
+
+nav a:link,
+nav a:visited {	
+	text-decoration: none;
+	color: #999;
+	-webkit-transition: color .2s;
+}
+
+nav a:hover {
+	color: #89D4E1;
+	-webkit-transition: color .2s;
+}
+
+nav a:active {
+	opacity: .3;	 	
+}
+
+nav li {
+	float: left;
+	padding: 0 10px 0 10px;
+	
+}
+
+nav ul {
+	float: left;
+	list-style: none;
+	margin: 33px 0 0 0;
+	
+}
+
+nav li:nth-child(2) a {
+	background: #DDD;
+}
+
+nav ul li:nth-child(3) {
+	padding-left: 250px;	
+}
+
+ul + hr {
+	top: 65px;
+	left: 155px;
+	background-color: #BBB;
+	border: 0;
+	position: absolute;
+	width: 230px;
+	height: 1px;	
+}
+
+ul + hr	 + hr {
+	top: 65px;
+	left: 589px;
+	background-color: #BBB;
+	border: 0;
+	position: absolute;
+	width: 230px;
+	height: 1px;	
+}
+
+h4 {
+	color: #666;
+	clear: both;
+	font: 100 18px 'Roboto', sans-serif;
+	margin: 168px 0 0 0;
+	text-align: center;	
+}
+
+
+
+/*MAIN*/
+
+
+
+.image {
+	background: url("../img/goodme.jpg") no-repeat;
+	border: solid 2px #DDD;
+	height: 450px;
+	margin: 25px 0 60px 130px;
+	width: 696px;
+	clear: both;	
+	
+}
+
+
+ main h2 {
+	 float: left;
+	 font: 100 28px 'Roboto', sans-serif;
+ }
+ 
+ main p {
+	font: 300 14px 'Roboto', sans-serif;
+	line-height: 25px;
+	margin: 25px 0 130px 0;
+ }
+
+/*FOOTER*/
+ main + hr {
+	background-color: #BBB;
+	border: none;
+	height: 1px;
+	width: 700px; 
+ }
+ 
+ footer {
+	float: left;	 
+ }
+ 
+ footer li {
+		float: left;
+		list-style: none;
+		width: 85px;
+		 
+ }
+ footer a {
+	font: 100 13px 'Roboto', sans-serif;
+	display: block;
+	padding: 4px 0 4px 0;
+	text-align: center;
+	width: 85px;
+}
+
+footer a:link,
+footer a:visited {	
+	text-decoration: none;
+	color: #666;
+	-webkit-transition: color .2s;
+}
+
+footer a:active {
+	opacity: .5;
+}
+
+h2 {
+	clear: both;	
+}
